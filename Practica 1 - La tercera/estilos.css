@@ -1,0 +1,532 @@
+/*--INICIO--*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #titulo1{
+    float: left;
+    color: white;
+    padding: 25px;
+  }
+
+  body {
+    background: #ffffff;
+    font-family: 'calibri';
+  }
+  
+  header {
+    background: #000000;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+    position: fixed;
+    margin-inline-end: 50px;
+    z-index: 1000;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-top: 34px;
+    margin-left: 50px;
+    margin-right: 18px;
+    padding: 25px
+    px 0;
+    float: left;
+    position: relative; 
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+
+#sec1{
+  
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: black;
+  display: flexbox;
+  text-align: left;
+  color: white;
+  position: static;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec1 {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+#Messi {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.t2_2{
+  font-size: 3.4rem;
+  margin-top: 250px;
+  text-align: left;
+  margin-left: 25%;
+  padding-block-end: 0%;
+  justify-content: center;
+}
+.t2{
+  text-align: center;
+  text-align: justify;
+  margin-left:25%;
+  margin-right: 25%;
+  justify-content: center;
+  font-size: large;
+}
+.medio{
+  text-align: center;
+  padding: 40px;
+}
+#txt_sub{
+  padding: 2%;
+}
+/*--CAMISETAS--*/
+.contenedor {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:end;
+  height: 100vh;
+  flex-wrap: wrap; 
+}
+
+.contenedor_camisetas {
+  display: flex;
+  justify-content: space-between 25px;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.tarjeta, .tarjeta2 {
+  width: 45%; 
+}
+
+.tarjeta {
+  height: 500px;
+  width: 400px;
+  margin: 0 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  justify-content: space-between;
+}
+
+.tarjeta2 {
+  height:500px;
+  width: 400px;
+  margin: 0 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  justify-content: space-between;
+  
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+}
+.tarjeta2:hover {
+  transform: scale(1.1);
+}
+.tarjeta img {
+  width: 100%;
+  height: auto;
+}
+.tarjeta2 img {
+  width: 100%;
+  height: auto;
+}
+
+.descripcion {
+  padding: 15px;
+}
+
+.descripcion h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.descripcion p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+/*--NUESTRA MISION--*/
+.mision{
+  display: flex;
+  justify-content: space-between 45%;
+}
+.mision_i{
+  text-align: center;
+  padding: 250px;
+}
+.mision_i h2{
+  font-size: 2.5rem;
+  text-align: left;
+}
+.mision_i p{
+  text-align: justify;
+  font-size: medium;
+}
+
+/*--QUIENES SOMOS--*/
+.negro{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+.qs_texto{
+  text-align: center;
+  padding: 5%;
+}
+.qs_texto p{
+  text-align: center;
+  line-height: 150%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 3%;
+}
+.beso_copa{
+  align-items: center;
+  text-align: center;
+}
+/*--FIN INICIO--*/
+/*--FOOTER--*/
+
+.pie {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.redes_sociales {
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.redes_sociales a {
+  margin-right: 10px;
+  display: inline-block; 
+}
+
+.redes_sociales a {
+  text-decoration: none;
+  color: white;
+}
+*/
+.pie > div {
+  flex: 1;
+}
+
+.redes_sociales {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icono_twitter img,
+.icono_youtube img,
+.icono_instagram img,
+.icono_facebook img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgb(194, 194, 194);
+}
+.icono_twitter img:hover,
+.icono_youtube img:hover,
+.icono_instagram img:hover,
+.icono_facebook img:hover {
+  transform: scale(1.2);
+}
+
+/*--ENVIOS--*/
+.titulos_envio{
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+.titulos_envio h4{
+ margin-block-end: 20px;
+}
+.envio1{
+  background-color: white;
+  display: block;
+  
+}
+
+.tit{
+  text-align: left;
+  color: #000000;
+
+}
+
+.tit{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 2%;
+  display: block;
+  padding-inline-start: 100px;
+}
+#text{
+  text-align: center;
+  margin-top: 25px;
+  padding-block-start: 10px;
+}
+#env{
+  background-position: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 400px;;
+  display: grid;
+  padding-block-end: 100px;
+}
+
+
+
+/*--TÉRMINOS Y CONDICIONES--*/
+.titulo_condiciones{
+  padding-top: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.terminos{
+  text-align: left;
+  text-align: justify;
+  line-height: 2.0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 280px;
+  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.cont5 {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-left: 20px;
+}
+.negrita{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10px
+}
+
+.ul {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 0;
+}
+
+.viñeta {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+
+/*--TIENDA--*/
+
+.contenedor_tienda {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10%;
+}
+
+.tienda_tarjeta {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px; 
+}
+.tienda_tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.contenido_tienda_tarjeta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.tienda_tarjeta_titulo {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.d_tienda_tarjeta {
+  font-size: 0.9em;
+  color: #555;
+}
+.tienda_tarjeta:hover {
+  transform: scale(1.05);
+}
+.tienda_tarjeta:hover .contenido_tienda_tarjeta {
+  transform: translateY(0);
+}
+/*--CONTACTANOS--*/
+.contenedor_contacto{
+  padding: 100px;
+  margin-block-end: 200px;
+  overflow: hidden;
+}
+.contacto_1 {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contacto_1,
+.form_contacto {
+  margin-bottom: 20px;
+}
+.contacto_1 h2 {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.contacto_1 img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.contacto_1 p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contacto_1 .mapa {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contacto_1 .mapa iframe {
+  width: 80%;
+  height: 300px;
+}
+
+.form_contacto {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form_contacto h2 {
+  font-size: 2.0rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form_contacto form {
+  margin-top: 20px;
+}
+
+.form_contacto form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form_contacto form input,
+.form_contacto form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.form_contacto form button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.contacto_1 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.form_contacto {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+/*--GUIA DE TALLER--*/
+
+.contenedor_talles {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.talles_izquierda,
+.talles_derecha {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px; 
+}
+
+.talles_izquierda img,
+.talles_derecha img {
+  max-width: 100%; 
+}
+
+.talles_izquierda h3,
+.talles_derecha h3 {
+  margin: 0 20px; 
+  font-size: 2.5rem;
+}
+
+.talles_izquierda img {
+  order: -1; 
+}
